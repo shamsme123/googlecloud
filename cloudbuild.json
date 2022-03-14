@@ -1,0 +1,13 @@
+{
+    "steps": [
+        {
+            "name": "gcr.io/cloud-builders/docker",
+            "args": [
+                "build",
+                "-t",
+                "gcr.io/perfect-chalice-343219/786-node-image",
+                "."
+            ]
+        }
+    ]
+}
