@@ -13,8 +13,7 @@
             "name": "gcr.io/cloud-builders/docker",
             "args": [
                 "push",
-                "gcr.io/perfect-chalice-343219/786-node-image",
-                "."
+                "gcr.io/perfect-chalice-343219/786-node-image"
             ]
         }
     ],
