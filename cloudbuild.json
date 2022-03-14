@@ -8,7 +8,18 @@
                 "gcr.io/perfect-chalice-343219/786-node-image",
                 "."
             ]
+        },
+        {
+            "name": "gcr.io/cloud-builders/docker",
+            "args": [
+                "push",
+                "gcr.io/perfect-chalice-343219/786-node-image",
+                "."
+            ]
         }
+    ],
+    "images": [
+        "gcr.io/perfect-chalice-343219/786-node-image"
     ],
     "options":{
         "logging": "CLOUD_LOGGING_ONLY"
